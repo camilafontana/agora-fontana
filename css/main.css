@@ -1,0 +1,298 @@
+
+/*CSS HOME*/
+
+#menu {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+     align-items: center;
+    background-color: blanchedalmond;
+    font-family: "roboto", "sans-serif";
+    word-spacing: 80px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    transition: all 2s;
+    }
+
+    #menu :hover {
+    background-color: white;
+    }
+
+
+    ul li {
+        list-style: none;
+    }
+
+#logo {
+    width: 245px;
+    height: 300px;
+    margin: 0px;
+    padding: opx;
+}
+
+#imagen-home1 {
+    width: 1250px;
+    height: 300px;
+    margin: 0px;
+    padding: opx;
+}
+
+
+#menu h1 {
+    display: inline;
+    color: black;
+    font-size: 50px;
+    font-family: "roboto", "sans-serif";
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 500px;
+
+}
+
+
+.jeans {
+    width: 9000x;
+    height: 520px;
+    margin: 0px;
+    padding: opx;
+}
+
+.blusas {
+    width: 540px;
+    height: 520px;
+    margin: 0px;
+    padding: opx;
+}
+
+.remeras {
+    width: 498px;
+    height: 520px;
+    margin: 0px;
+    padding: opx;
+}
+
+.pantalones {
+    width: 498px;
+    height: 520px;
+    padding: opx;
+    margin: 0px;
+}
+
+.vestidos {
+    width: 497px;
+    height: 520px;
+    margin: 0px;
+    padding: opx;
+}
+
+.final {
+    width: 1500px;
+height: 520px;
+margin: 0px;
+padding: opx;
+}
+
+footer {
+    background: blanchedalmond;
+    margin: 0px;
+    padding: opx;
+   
+}
+.tw {
+    width: 80px;
+    height: 80px;
+}
+
+.insta {
+    width: 80px;
+    height: 80px;
+}
+
+.facebook {
+    width: 80px;
+    height: 80px;
+}
+
+#redes-sociales {
+    text-align: right;
+}
+
+h4 {
+    font-family: "roboto", "sans-serif";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cierre {
+    font-family: "roboto", "sans-serif";
+    font-size: 20px ;
+    text-align: right;
+    list-style: none;
+    list-style-type:none;
+    
+}
+
+#beneficios {
+border: violet;
+border-style: groove;
+
+}
+
+#nuestros-beneficios {
+    font-family: "roboto", "sans-serif";
+    font-size: 20px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/**CSS NEW**/
+
+
+
+.principal-new {
+    width: 1503px;
+    height: 800px;
+
+}
+
+.fila1-new {
+    width: 372px;
+    height: 500px;
+}
+
+#precios1-new {
+    list-style: none;
+    word-spacing: 320px;
+    font-family: "roboto", "sans-serif";
+    font-size: 25px;
+    background: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.precios1-new {
+    display: inline;
+}
+
+.fila2-new {
+    width: 372px;
+    height: 500px;
+}
+
+#precios2-new {
+    list-style: none;
+    word-spacing: 320px;
+    font-family: "roboto", "sans-serif";
+    font-size: 25px;
+    background: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.precios2-new {
+    display: inline;
+}
+
+.fila3-new {
+    width: 372px;
+    height: 500px;
+}
+
+#precios3-new {
+    list-style: none;
+    word-spacing: 320px;
+    font-family: "roboto", "sans-serif";
+    font-size: 25px;
+    background: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.precios3-new {
+    display: inline;
+}
+
+
+.fila4-new {
+    width: 372px;
+    height: 500px;
+}
+
+#precios4-new {
+    list-style: none;
+    word-spacing: 320px;
+    font-family: "roboto", "sans-serif";
+    font-size: 25px;
+    background: blanchedalmond;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.precios4-new {
+    display: inline;
+}
+
+#foto-final {
+    width: 1503px;
+    height: 800px;
+}
+
+
+/** CSS MUJER **/
+
+
+.principal-mujer {
+    width: 1500px;
+    height: 700px;
+}
+
+/** CSS CONTACTO **/
+
+#contacto {
+    background-color: darkcyan;
+    background-position: center;
+    background-image:url(../public/img/fondocontacto.jpg);
+}
+
+
+/** CSS OFERTAS **/
+
+
+
+.principal-ofertas {
+    width: 1500px;
+    height: 700px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/** CSS LOCALES **/
+
+
+
+.foto-local {
+    height: 700px;
+    width: 1500px;
+}
+
+#cuerpo-locales {
+    display: grid;
+    grid-template-areas: "local-1 local-2" "foto-1 foto-2" ;
+    justify-content: space-around;
+}
